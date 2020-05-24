@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Help.mensagem.SmsActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/nomeCuidador"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_size"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@+id/ma_button_cadastro"
+                app:layout_constraintEnd_toEndOf="@+id/ma_button_cadastro"
+                app:layout_constraintStart_toStartOf="@+id/ma_button_cadastro"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <Button
+                android:id="@+id/ma_button_cadastro"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="64dp"
+                android:background="@drawable/selector_cadastro_button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/ma_button_emergencia"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginStart="62dp"
+                android:layout_marginTop="64dp"
+                android:background="@drawable/selector_emergencia_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ma_button_cadastro"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/ma_button_banheiro"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginBottom="256dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/selector_banheiro_button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ma_button_cadastro"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <Button
+                android:id="@+id/ma_button_banho"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/selector_banho_button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ma_button_banheiro" />
+
+            <Button
+                android:id="@id/ma_button_sede"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginStart="62dp"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/selector_sede_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ma_button_banho"
+                app:layout_constraintTop_toBottomOf="@+id/ma_button_fome"/>
+
+            <Button
+                android:id="@+id/ma_button_frio"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginStart="62dp"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/selector_frio_button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ma_button_calor"
+                app:layout_constraintTop_toBottomOf="@+id/ma_button_sede"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <Button
+                android:id="@+id/ma_button_fome"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginStart="62dp"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/selector_fome_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ma_button_banheiro"
+                app:layout_constraintTop_toBottomOf="@+id/ma_button_emergencia" />
+
+            <Button
+                android:id="@+id/ma_button_calor"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/selector_calor_button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ma_button_banho" />
+
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

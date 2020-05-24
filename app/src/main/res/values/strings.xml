@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Help-Me!</string>
+    <!--Tela Main Activity-->
+    <string name="ma_tv_desc"><b>Este Aplicativo Ajuda Pacientes na interação com seu Cuidador</b></string>
+    <!--Tela de Registro de Paciente-->
+    <string name="et_usuario">Digite o nome completo</string>
+    <string name="ma_et_telefone">Telefone celular</string>
+    <string name="ma_et_rua">Rua</string>
+    <string name="ma_et_bairro">Bairro</string>
+    <string name="ma_et_cidade">Cidade</string>
+    <string name="ma_et_numero">N°</string>
+    <string name="ma_et_complemento">Complemento</string>
+    <string name="ma_et_uf">UF</string>
+    <string name="ma_et_cep">Digite o CEP</string>
+    <string name="et_email">Digite o email</string>
+    <string name="ma_bt_ok">BUSCAR CEP</string>
+    <string name="ma_bt_limpar_paciente">Limpar</string>
+    <string name="la_et_senha">Digite a Senha</string>
+    <string name="la_et_email">Digite o email</string>
+
+
+    <string-array name="estado">
+        <item>"*Estado"</item>
+        <item>"Acre (AC)"</item>
+        <item>"Alagoas (AL)"</item>
+        <item>"Amapá (AP)"</item>
+        <item>"Amazonas (AM)"</item>
+        <item>"Bahia (BA)"</item>
+        <item>"Ceará (CE)"</item>
+        <item>"Distrito Federal (DF)"</item>
+        <item>"Espírito Santo (ES)"</item>
+        <item>"Goiás (GO)"</item>
+        <item>"Maranhão (MA)"</item>
+        <item>"Mato Grosso (MT)"</item>
+        <item>"Mato Grosso do Sul (MS)"</item>
+        <item>"Minas Gerais (MG)"</item>
+        <item>"Pará (PA)"</item>
+        <item>"Paraíba (PB)"</item>
+        <item>"Paraná (PR)"</item>
+        <item>"Pernambuco (PE)"</item>
+        <item>"Piauí (PI)"</item>
+        <item>"Rio de Janeiro (RJ)"</item>
+        <item>"Rio Grande do Norte (RN)"</item>
+        <item>"Rio Grande do Sul (RS)"</item>
+        <item>"Rondônia (RO)"</item>
+        <item>"Roraima (RR)"</item>
+        <item>"Santa Catarina (SC)"</item>
+        <item>"São Paulo (SP)"</item>
+        <item>"Sergipe (SE)"</item>
+        <item>"Tocantins (TO)"</item>
+    </string-array>
+    <!--Tela de Registro de Cuidador-->
+    <string name="ma_et_nome">Nome Completo</string>
+    <string name="ma_et_fone">Telefone Celular</string>
+    <string name="ma_et_tipo"><b>Selecione o Tipo de Cuidador</b></string>
+    <string name="ma_rb_familiar">Familiar</string>
+    <string name="ma_rb_outros">Cuidador</string>
+    <string name="ma_rb_enfermeiro">Enfermeiro</string>
+    <string name="ma_bt_salvar_cuidador">SALVAR</string>
+    <string name="ma_bt_limpar_cuidador">LIMPAR</string>
+    <string name="ma_rb_desativar">Desativar Mensagem</string>
+    <string name="ma_rb_ativar">Ativar Mensagem</string>
+
+    <!--Título Toolbar-->
+    <string name="toolbar_titulo">Help-me!</string>
+
+</resources>
