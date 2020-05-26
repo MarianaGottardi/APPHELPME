@@ -4,8 +4,6 @@ Este trabalho tem como objetivo o desenvolvimento de um aplicativo para platafor
 
 ## Palavras chaves:
 Aplicativos. Dispositivos móveis. Android. 
-## Palavras chaves:
-Aplicativos. Dispositivos móveis. Android. 
 
 ### Tecnologias
 - LINGUAGEM DE PROGRAMAÇÃO JAVA
